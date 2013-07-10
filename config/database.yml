@@ -19,7 +19,8 @@ development:
   encoding: unicode
   database: chyld_io_development
   pool: 5
-  username: chyld_io
+  host: localhost
+  username: chyld
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +49,8 @@ test:
   encoding: unicode
   database: chyld_io_test
   pool: 5
-  username: chyld_io
+  host: localhost
+  username: chyld
   password:
 
 production:
@@ -56,5 +58,6 @@ production:
   encoding: unicode
   database: chyld_io_production
   pool: 5
-  username: chyld_io
+  host: localhost
+  username: chyld
   password:
